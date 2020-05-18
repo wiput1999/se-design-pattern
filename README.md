@@ -3,3 +3,6 @@
 ## Creational Patterns
 - Singleton
 - Factory
+
+## Structural Patterns
+- Adapter
