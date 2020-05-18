@@ -3,6 +3,9 @@ package me.wiput.adapter;
 public class Main {
 
   public static void main(String[] args) {
+
+//    SquarePeg to RoundPeg adapter
+    System.out.println("=== SquarePeg to RoundPeg Adapter ===");
     RoundHole roundHole = new RoundHole(5);
     RoundPeg roundPeg = new RoundPeg(5);
 
@@ -23,5 +26,14 @@ public class Main {
     if (!roundHole.isFit(largeSquarePegAdapter)) {
       System.out.println("large sq peg not fit the hole");
     }
+
+//    Megaman to Rockman Adapter
+    System.out.println("=== Megaman to Rockman Adapter ===");
+    ConcreteMegaman megaMan = new ConcreteMegaman();
+    MegamanAdapter megaManAdapter = new MegamanAdapter(megaMan);
+
+    CapComGame game = new CapComGame(megaManAdapter);
+
+    game.play();
   }
 }
