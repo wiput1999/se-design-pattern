@@ -11,3 +11,4 @@ Design Pattern Practice for Software Engineering Exam
 - Decorator
 - Composite
 - Proxy
+- Facade
