@@ -6,3 +6,4 @@
 
 ## Structural Patterns
 - Adapter
+- Decorator
