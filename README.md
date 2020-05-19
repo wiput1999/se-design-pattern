@@ -7,3 +7,4 @@
 ## Structural Patterns
 - Adapter
 - Decorator
+- Composite
