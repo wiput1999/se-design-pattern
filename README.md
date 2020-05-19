@@ -8,3 +8,4 @@
 - Adapter
 - Decorator
 - Composite
+- Proxy
